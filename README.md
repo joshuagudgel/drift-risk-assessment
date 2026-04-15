@@ -21,6 +21,6 @@ Indicates the combined risk score of the input fields.
 
 ### Score Breakdown
 
-- Low Risk: 0 - 4
-- Exercise Caution: 5 - 8
-- Dangerous Conditions: 9+
+- Low Risk: 0 - 2
+- Exercise Caution: 3 - 6
+- Dangerous Conditions: 6+

@@ -38,11 +38,11 @@ void driftassessment::evaluateRisk()
 
 void driftassessment::updateDisplay(int score)
 {
-    if(score > 8)
+    if(score > 6)
     {
         ui->summaryLabel->setText("Dangerous Conditions");
     }
-    else if (score > 4)
+    else if (score > 3)
     {
         ui->summaryLabel->setText("Exercise Caution");
     }
