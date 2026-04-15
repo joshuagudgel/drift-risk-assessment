@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>229</width>
+    <height>461</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>driftassessment</string>
+   <string>Drift Risk Assessment</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -77,12 +77,12 @@
         <widget class="QComboBox" name="humComboBox">
          <item>
           <property name="text">
-           <string>Low</string>
+           <string>Medium</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Medium</string>
+           <string>Low</string>
           </property>
          </item>
          <item>
@@ -209,7 +209,7 @@
         <widget class="QComboBox" name="dropletComboBox">
          <item>
           <property name="text">
-           <string>Ultra-fine</string>
+           <string>Coarse</string>
           </property>
          </item>
          <item>
@@ -219,7 +219,7 @@
          </item>
          <item>
           <property name="text">
-           <string>Coarse</string>
+           <string>Ultra-fine</string>
           </property>
          </item>
         </widget>
@@ -248,7 +248,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>229</width>
      <height>21</height>
     </rect>
    </property>

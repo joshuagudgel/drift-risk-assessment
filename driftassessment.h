@@ -16,6 +16,8 @@ class driftassessment : public QMainWindow
 public:
     explicit driftassessment(QWidget *parent = nullptr);
     ~driftassessment() override;
+    void evaluateRisk();
+    void updateDisplay(int score);
 
 private:
     Ui::driftassessment *ui;
